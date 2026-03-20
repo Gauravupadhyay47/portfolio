@@ -1,0 +1,30 @@
+.layout{
+  display:flex;
+  gap:30px;
+  padding:40px;
+  background:#0f0f11;
+  min-height:100vh;
+  color:white;
+}
+
+.left{
+  width:320px;
+}
+
+.right{
+  flex:1;
+}
+
+@media (max-width:900px){
+
+  .layout{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .left{
+    width:100%;
+    max-width:350px;
+  }
+
+}
